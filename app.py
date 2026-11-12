@@ -3442,7 +3442,8 @@ st.markdown("""<style>
 [data-testid="stMetric"] {background:#f3f6fa;border-radius:10px;padding:12px;}
 [data-testid="stHeadingWithActionElements"] h3 {padding-top:.1rem;padding-bottom:.2rem;}
 hr {margin:.4rem 0;}
-div.stButton > button[kind="primary"] {background:#174e67;border:0;}
+div.stButton > button[kind="primary"] {background:#00c951;border:0;color:#fff;}
+div.stButton > button[kind="primary"]:hover {background:#00a443;color:#fff;}
 </style>""", unsafe_allow_html=True)
 
 
